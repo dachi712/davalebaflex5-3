@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    width: 100%;
+
+}
+nav{
+    background: #E7EEFF;
+}
+.navDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 28px 0px 28px;
+    width: 104px;
+    background: #E7EEFF;
+    gap: 24px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 42px;
+}
+
+header {
+    width: 100%;
+}
+
+.headerContainer {
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    background: #E7EEFF;
+    justify-content: space-between;
+}
+
+form {
+    background-color: #E7EEFF;
+    display: flex;
+    gap: 12px;
+    max-width: 326px;
+    width: 100%;
+}
+
+.searchDiv {
+    max-width: 326px;
+    width: 100%;
+}
+
+input {
+    background-color: #E7EEFF;
+    border: none;
+    max-width: 326px;
+    width: 100%;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.avatarContainer {
+    display: flex;
+    max-width: 194px;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+}
+
+.avatarP {
+    color: #5E6577;
+
+}
+
+main {
+    display: flex;
+    width: 100%;
+    padding: 0px 96px;
+    flex-direction: column;
+    gap: 42px;
+    margin-bottom: 32px;
+}
+
+.informationDiv {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 30px;
+}
+
+.buttonsDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+    padding: 8px 24px 8px 12px;
+}
+
+.textSpan {
+    color: #323232;
+}
+.housesDiv{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 42px;
+}
+.firstHousesDiv {
+    display: flex;
+    justify-content:flex-end;
+    gap: 42px;
+    flex-wrap: wrap;
+
+}
+.modernHouseDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.housetextDiv {
+    padding: 8px 12px;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+.housesP{
+    margin-bottom: 4px;
+    color: #000000;
+    font-size: 18px;
+}
+.housesBottomP{
+    color: #606060;
+    font-size: 14px;
+}
+.secondHousesDiv{
+    display: flex;
+    justify-content:flex-end;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+.tropicVilaDiv{
+    display: flex;
+    flex-direction: column;
+}
+.individualVilaDiv{
+    display: flex;
+    flex-direction: column;
+}
+.doubHouseDiv{
+    display: flex;
+    flex-direction: column;
+}
